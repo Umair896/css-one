@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  html {
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+  }
+  /* common styles */
+  .cm {
+    margin: 20px 15px;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  /* join our community styles */
+  .joc {
+    background-color: snow;
+  }
+  .joc h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1.3rem;
+  }
+  .joc h2 {
+    color: hsla(71, 73%, 54%, 0.856);
+    margin-bottom: 1.3rem;
+  }
+  .joc p {
+    max-width: 95%;
+    color: rgb(172, 171, 171);
+  }
+
+  /* common ms and why-us */
+  .cm1 {
+      padding: 20px 15px;
+  }
+
+  /* Monthly subscription styles */
+  
+  .ms {
+      background-color: hsl(179, 62%, 43%);
+  }
+
+  .ms h2 {
+      color: hsla(203, 44%, 93%, 0.849);
+      margin-bottom: 1.3rem;
+  }
+
+  .ms p {
+      color: #ccc;
+      margin-bottom: .8rem;
+  }
+
+  .ms span {
+      font-size: 2rem;
+      color: white;
+  }
+
+  .ms button {
+      background-color: greenyellow ;
+      width: 100%;
+      height: 2rem;
+      color: white;
+      border: none;
+      border-radius: 5px;
+  }
+
+   /* Why-us styles */
+
+   .why-us {
+    background-color: rgba(27, 183, 189, 0.616);
+   }
+
+   .why-us h2 {
+      color: hsla(203, 44%, 93%, 0.849);
+      margin-bottom: 1.3rem;
+  }
+   
+  .why-us p {
+    color:hsla(203, 44%, 93%, 0.822);
+    max-width: 80%;
+  }
+
+@media (max-width=400px) {
+  .cm1 
+}
